@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:5000/api/subscriptions';
+const API_URL = 'https://customerchurn-notebook-vinay-sem3.onrender.com/api/subscriptions';
 
 export default function App() {
   const [data, setData] = useState({ summary: {}, patterns: { byPlan: [], byTenure: [], byReason: [] }, records: [] });
